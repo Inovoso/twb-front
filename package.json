@@ -1,6 +1,9 @@
 {
   "name": "twb-front",
   "version": "0.0.0",
+  "config": {
+    "url": "https://twb.inovoso.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
