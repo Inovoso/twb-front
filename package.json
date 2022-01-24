@@ -6,7 +6,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.json",
     "build": "ng build --base-href %npm_package_config_url%",
     "move": "mv dist/twb-front/* dist",
     "clean": "rm -d dist/twb-front",
