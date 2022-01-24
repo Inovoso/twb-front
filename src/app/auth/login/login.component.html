@@ -6,7 +6,7 @@
       <h1>Login</h1>
       <form [formGroup]="mainForm" class="ed-container s-column">
         <mat-form-field>
-          <input matInput placeholder="Email" formControlName="email" />
+          <input matInput placeholder="Username" formControlName="username" />
         </mat-form-field>
         <mat-form-field>
           <input
@@ -17,7 +17,7 @@
           />
         </mat-form-field>
 
-        <button type="submit" mat-button>Sign in</button>
+        <button type="submit" mat-button (click)="testClick()">Sign in</button>
       </form></mat-card
     >
   </div>
